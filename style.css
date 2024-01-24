@@ -140,7 +140,6 @@ nav button#menuButton {
 
 .skills {
     padding: 110px 85px 0;
-    margin-bottom: 900px;
 }
 
 .skills h3,
@@ -175,15 +174,15 @@ nav button#menuButton {
     align-items: center;
     justify-content: center;
     background-color: #fcfcfb;
-    width: 46px;
-    height: 46px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px;
     margin-bottom: 22px;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
 }
 
 .skills .skill-items .item .icon i {
-    font-size: 25px;
+    font-size: 30px;
     color: #003566;
 }
 
@@ -197,4 +196,26 @@ nav button#menuButton {
     font-size: 14px;
     line-height: 20px;
     color: #001d3d;
+}
+
+.about {
+    padding: 110px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.about .left {
+    background-color: #001d3d;
+    border-radius: 10px 10px 0 0;
+}
+
+.about .left img {
+    width: 440px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+.about .right p {
+    font-size: 16px;
+    margin-top: 30px;
 }
