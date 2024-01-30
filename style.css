@@ -235,7 +235,7 @@ nav button#menuButton {
 
 .portfolio .header button {
     background-color: #ffc300;
-    padding: 20px 35px;
+    padding: 20px 20px;
     color: #000814;
     display: flex;
     align-items: center;
@@ -243,9 +243,14 @@ nav button#menuButton {
     gap: 8px;
     border: none;
     border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio .header button i {
-    font-size: 30px;
+    font-size: 45px;
+    color: #000814;
 }
+
+
+
 
