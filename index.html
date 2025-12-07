@@ -1,128 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
-    <title>Personal Portfolio | Trizmera</title>
-</head>
-<body>
+<html>
+    <head>
+        <title>&#129497; | trizmera - webmaster</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
     
-    <nav>
-        <div class="logo">
-            <img src="assets/trizmera-logos_black.png" alt="">
-        </div>
-        <ul>
-            <li><a href="#main">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-        </ul>
-        <button>Contact Me</button>
-        <button id="menuButton" onclick="openMenu()">
-            <i class="bx bx-menu"></i>
-        </button>
-    </nav>
-
-    <div class="main" id="main">
-        <div class="left">
-            <h5>Hey, I am Bea</h5>
-            <h3>I create <span>software solutions</span></h3>
-            <p>
-                A creative engineer crafting innovative software solutions
-                for a dynamic digital world. Let's connect and innovate together!
-            </p>
-            <button>Download CV</button>
-        </div>
-
-        <div class="right">
-            <!--add img here-->
-            <img src="assets/profile-crop.PNG" alt="profile-img">
-        </div>
-    </div>
-
-    <div class="skills" id="skills">
-        <h5>My Skills</h5>
-        <h3>My Expertise</h3>
-        <div class="skill-items">
-            <div class="item">
-                <div class="icon"><i class='bx bxl-javascript'></i></div>
-                <h4>Modern JavaScript Development</h4>
-                <p>
-                    Proficient in utilizing modern JavaScript technologies such as Angular, React, and Typescript
-                        to build dynamic and interactive user interfaces for web and mobile applications.
-                </p>
+    <body>
+        <div class="page-wrapper flex-container">
+            <div class="header">
+                <h1>Bea's personal Webpage</h1>
+                <div class="nav">
+                    <a href="home.html">home</a> |
+                    <a href="projects.html">projects</a> |
+                    <a href="contact.html">contact</a>
+                </div>
             </div>
-            <div class="item">
-                <div class="icon"><i class='bx bxs-package'></i></div>
-                <h4>Frontend Technologies (HTML, CSS/LESS/SASS)</h4>
-                <p>
-                    Strong expertise in HTML, CSS and preprocessors like LESS/SASS, ensuring a solid foundation
-                        for creating visually appealing and responsive interfaces.
-                </p>
+            <div class="aside aside1">
+                <p>about Me</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium assumenda perferendis labore suscipit, velit quas nisi earum? Corrupti maiores illo perspiciatis possimus incidunt voluptatum facilis quidem rerum iure veniam consequatur velit, rem deserunt corporis vero repellat quos voluptate similique praesentium! Accusamus, magnam assumenda. Eligendi, suscipit.</p>
             </div>
-            <div class="item">
-                <div class="icon"><i class='bx bxs-devices'></i></div>
-                <h4>Responsive Interface Development</h4>
-                <p>
-                    Skilled in developing responsive interfaces for both web and mobile platforms, ensuring 
-                        a seamless user experience across various devices and screen sizes.
-                </p>
+            <div class="aside aside2">
+                <p>news</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eius eum a? Impedit suscipit ullam corrupti nostrum officiis expedita adipisci numquam error animi, voluptas vel quaerat nesciunt ipsum similique illum id nam fugiat incidunt. Eos nam minima illum. Consequatur impedit numquam, mollitia quo voluptatum odit voluptatem veritatis beatae ipsum quisquam necessitatibus dolores iste ut obcaecati?</p>
             </div>
-            <div class="item">
-                <div class="icon"><i class='bx bxs-bug'></i></div>
-                <h4>Performance Optimization and Debugging</h4>
-                <p>
-                    Knowledgeable in performance debugging, benchmarking, and implementing best practices 
-                        to enhance the overall efficiency and speed of web applications, with a focus on 
-                        delivering optimal user experiences.
-                </p>
+            <div class="main">
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi est dolore omnis voluptates tempora unde sunt. Ipsam accusamus numquam odio impedit, placeat repellendus dignissimos porro.</P>
+            </div>
+            <div class="footer">
+                &copy; 2005-2025 Trizmera Productions. All Rights Reserved.
+                <small>Last Updated: 07/12/2025</small>
             </div>
         </div>
-    </div>
+    </body>
 
-    <div class="about" id="about">
-        <div class="left">
-            <img src="assets/trizmera-logos_white.png" alt="">
-        </div>
-        <div class="right">
-            <h5>About</h5>
-            <h3>About Me</h3>
-            <p>
-                I have a degree in Systems Analysis from FATEC São Paulo. 
-                Adept at crafting fullstack solutions. Passionate about making electronic/techno music, design, 
-                and Criterion movies, learning and developing innovation in the digital realm.
-            </p>
-        </div>
-    </div>
-
-    <div class="portfolio" id="portfolio">
-        <div class="header">
-            <div class="info">
-                <h5>Recent Projects</h5>
-                <h3>My Portfolio</h3>
-            </div>
-            <button><a href="https://github.com/Trizmera" target="_blank"><i class='bx bxl-github'></i></a></button>
-        </div>
-    </div>
-
-    <footer>
-        <div class="top">
-            <div class="logo">
-                <img src="assets/trizmera-logos_white.png" alt="">
-            </div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="social-links">
-                
-            </div>
-        </div>
-    </footer>
-
-
-    <script src="script.js" onclick="openMenu()"></script>
-</body>
 </html>
