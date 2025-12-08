@@ -31,10 +31,13 @@ body {
 
 .header {
     text-align: center;
-    background-image: url("assets/banner_patter.jpg");
-    background-repeat: repeat-x;
-    margin: 10px;
-    color: #ebd6a9;
+    background-image: url("assets/background.png");
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 2px;
+    color: #570124;
 }
 
 .nav {
