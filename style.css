@@ -1,12 +1,13 @@
 body {
-    background: #000033;
+    background-image: url("assets/medieval_patter.jpg");
     margin: 40px;
-    color: #00ffcc;
+    color: #1b1613;
     font-family: "Courier New", Courier, monospace;
 }
 
 .flex-container {
     display: flex;
+    background-color: #3e2e17;
     flex-flow: row wrap;
     font-weight: bold;
     text-align: center;
@@ -14,12 +15,13 @@ body {
 }
 
 .page-wrapper {
-    border: 2px solid #0099ff;
+    border: 5px solid #C29979;
     overflow: hidden;
 }
 
 /* Default mobile */
 .header,
+.nav,
 .aside,
 .main,
 .footer {
@@ -29,11 +31,61 @@ body {
 
 .header {
     text-align: center;
+    background-image: url("assets/banner_patter.jpg");
+    background-repeat: repeat-x;
+    margin: 10px;
+    color: #ebd6a9;
 }
+
+.nav {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button {
+    text-decoration: none;
+    color: #ebd6a9;
+    background-color: #570124;
+    padding: 4px 14px;
+    box-shadow: 4px 2px #1a1617;
+    cursor: pointer;
+    border-radius: 0; 
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: #7d3c51; 
+    border-left-color: #7d3c51;
+    border-bottom-color: #380820;
+    border-right-color: #380820;
+}
+
+.aside1 {
+    border: 3px solid #C29979;
+    background-color: #825428 ;
+    margin: 5px;
+}
+
+.classic-line {
+    border: 0;
+    height: 3px;
+    background-color: #C29979;
+    border-top: 1px solid #C29979;
+    border-bottom: 1px solid #1a1617;
+}
+
+.aside2 {
+    border: 3px solid #C29979;
+    background-color: #0d2b13;
+    color: #ebd6a9;
+    margin: 5px;
+}
+
 .main {
     text-align: left;
-    background: #9999ff;
+    background-color: #f3d9b1;
     padding: 20px;
+    box-shadow: 4px 2px #1a1617;
+    margin: 5px;
+
 }
 
 .footer {
@@ -42,6 +94,7 @@ body {
     text-align: center;
     background: #000022;
     color: #9999ff;
+    margin: 5px;
 }
 
 @media all and (min-width: 760px) {
