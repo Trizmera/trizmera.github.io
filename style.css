@@ -62,9 +62,10 @@ body {
 }
 
 .aside1 {
-    border: 3px solid #C29979;
     background-color: #825428 ;
     margin: 5px;
+    padding: 10px;
+    box-shadow: 4px 2px #1a1617;
 }
 
 .classic-line {
@@ -76,11 +77,13 @@ body {
 }
 
 .aside2 {
-    border: 3px solid #C29979;
     background-color: #0d2b13;
     color: #ebd6a9;
     margin: 5px;
+    padding: 10px;
+    box-shadow: 4px 2px #1a1617;
 }
+
 
 .main {
     text-align: left;
@@ -92,12 +95,13 @@ body {
 }
 
 .footer {
-    padding: 40px;
+    padding: 30px;
     font-size: 10px;
     text-align: center;
     background: #000022;
     color: #9999ff;
     margin: 5px;
+    box-shadow: 4px 2px #1a1617;
 }
 
 @media all and (min-width: 760px) {
@@ -109,3 +113,6 @@ body {
     .footer { order: 4; }
 
 }
+
+
+
