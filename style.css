@@ -36,7 +36,25 @@ body {
     margin-bottom: 10px;
     box-sizing: border-box;
     box-shadow: 8px 4px #1a1617;
-    color: #570124;
+    color: #1a1617;
+    background-color: #f3d9b1;
+    background-blend-mode: multiply;
+    text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.5),
+                 -1px -1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+    color: #1a1617;
+    margin: 10px 0;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.header p {
+    color: #380820;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    margin: 5px 0;
 }
 
 .nav {
@@ -110,7 +128,66 @@ body {
     .main { order: 2; } 
     .aside2 { order: 3; }
     .footer { order: 4; }
+}
 
+/* Additional CV-specific styles */
+.job-entry {
+    margin-bottom: 25px;
+}
+
+.job-entry h2 {
+    color: #570124;
+    margin-bottom: 5px;
+}
+
+.job-entry p {
+    margin: 5px 0;
+}
+
+.job-entry ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.job-entry ul li {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.skill-category {
+    margin: 15px 0;
+}
+
+.skill-category h3 {
+    color: #570124;
+    margin-bottom: 8px;
+}
+
+.skill-category p {
+    line-height: 1.6;
+}
+
+a {
+    color: #570124;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #380820;
+}
+
+.button:hover {
+    background-color: #7d3c51;
+    transform: translateY(-1px);
+    transition: all 0.2s ease;
+}
+
+h2, h3 {
+    color: #570124;
+}
+
+strong {
+    color: #380820;
 }
 
 
